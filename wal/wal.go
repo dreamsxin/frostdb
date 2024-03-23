@@ -12,10 +12,10 @@ import (
 
 	"github.com/apache/arrow/go/v15/arrow"
 	"github.com/apache/arrow/go/v15/arrow/ipc"
+	"github.com/dreamsxin/wal"
+	"github.com/dreamsxin/wal/types"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
-	"github.com/polarsignals/wal"
-	"github.com/polarsignals/wal/types"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
