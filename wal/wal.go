@@ -19,7 +19,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	walpb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
+	walpb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
 )
 
 type ReplayHandlerFunc func(tx uint64, record *walpb.Record) error

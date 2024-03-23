@@ -11,9 +11,9 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/polarsignals/frostdb/pqarrow/arrowutils"
-	"github.com/polarsignals/frostdb/pqarrow/builder"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/pqarrow/arrowutils"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type groupColInfo struct {

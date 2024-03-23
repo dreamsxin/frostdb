@@ -29,15 +29,15 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	schemapb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
-	schemav2pb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha2"
-	tablepb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/table/v1alpha1"
-	walpb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
-	"github.com/polarsignals/frostdb/index"
-	"github.com/polarsignals/frostdb/parts"
-	"github.com/polarsignals/frostdb/query/logicalplan"
-	"github.com/polarsignals/frostdb/wal"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	schemapb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
+	schemav2pb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha2"
+	tablepb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/table/v1alpha1"
+	walpb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
+	"github.com/dreamsxin/frostdb/index"
+	"github.com/dreamsxin/frostdb/parts"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/wal"
 )
 
 const (
@@ -316,7 +316,7 @@ func (s *ColumnStore) recoverDBsFromStorage(ctx context.Context) error {
 	dir := s.DatabasesDir()
 	if _, err := os.Stat(dir); err != nil {
 		if os.IsNotExist(err) {
-			level.Debug(s.logger).Log("msg", "WAL directory does not exist, no WAL to replay")
+			level.Debug(s.logger).Log("msg", "WAL directory does not exist, no WAL to replay", "dir", dir)
 			return nil
 		}
 		return err

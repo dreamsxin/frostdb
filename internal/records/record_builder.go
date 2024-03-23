@@ -13,8 +13,8 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/google/uuid"
 
-	schemapb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
-	"github.com/polarsignals/frostdb/pqarrow/arrowutils"
+	schemapb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
+	"github.com/dreamsxin/frostdb/pqarrow/arrowutils"
 )
 
 const (

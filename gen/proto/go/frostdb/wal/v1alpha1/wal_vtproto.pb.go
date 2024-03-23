@@ -9,7 +9,7 @@ import (
 	io "io"
 	bits "math/bits"
 
-	v1alpha1 "github.com/polarsignals/frostdb/gen/proto/go/frostdb/table/v1alpha1"
+	v1alpha1 "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/table/v1alpha1"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 

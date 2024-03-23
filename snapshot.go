@@ -22,11 +22,11 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/util"
 	"github.com/go-kit/log/level"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	snapshotpb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/snapshot/v1alpha1"
-	tablepb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/table/v1alpha1"
-	"github.com/polarsignals/frostdb/index"
-	"github.com/polarsignals/frostdb/parts"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	snapshotpb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/snapshot/v1alpha1"
+	tablepb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/table/v1alpha1"
+	"github.com/dreamsxin/frostdb/index"
+	"github.com/dreamsxin/frostdb/parts"
 )
 
 // This file implements writing and reading database snapshots from disk.

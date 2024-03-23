@@ -12,11 +12,11 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/pqarrow/builder"
-	"github.com/polarsignals/frostdb/pqarrow/convert"
-	"github.com/polarsignals/frostdb/pqarrow/writer"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/convert"
+	"github.com/dreamsxin/frostdb/pqarrow/writer"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 // ParquetRowGroupToArrowSchema converts a parquet row group to an arrow schema.

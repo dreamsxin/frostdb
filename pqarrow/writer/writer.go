@@ -7,7 +7,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/array"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
 )
 
 type ValueWriter interface {

@@ -14,7 +14,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 func randByteSlice(n int) []byte {

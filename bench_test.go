@@ -16,9 +16,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/query"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/query"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 const (

@@ -12,8 +12,8 @@ import (
 	"github.com/pingcap/tidb/parser/opcode"
 	"github.com/pingcap/tidb/parser/test_driver"
 
-	"github.com/polarsignals/frostdb/query"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type astVisitor struct {

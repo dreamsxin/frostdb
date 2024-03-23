@@ -9,8 +9,8 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/internal/records"
-	"github.com/polarsignals/frostdb/pqarrow/arrowutils"
+	"github.com/dreamsxin/frostdb/internal/records"
+	"github.com/dreamsxin/frostdb/pqarrow/arrowutils"
 )
 
 func TestMerge(t *testing.T) {

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/polarsignals/frostdb/cmd/parquet-tool/cmd"
+import "github.com/dreamsxin/frostdb/cmd/parquet-tool/cmd"
 
 func main() {
 	cmd.Execute()

@@ -6,7 +6,7 @@ import (
 
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type ColumnRef struct {

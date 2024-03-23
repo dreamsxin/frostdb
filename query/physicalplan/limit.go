@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/polarsignals/frostdb/pqarrow/arrowutils"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/pqarrow/arrowutils"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type Limiter struct {

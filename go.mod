@@ -1,4 +1,4 @@
-module github.com/polarsignals/frostdb
+module github.com/dreamsxin/frostdb
 
 go 1.21
 

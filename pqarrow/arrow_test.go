@@ -12,9 +12,9 @@ import (
 	"github.com/parquet-go/parquet-go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	schemapb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	schemapb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 func TestDifferentSchemasToArrow(t *testing.T) {

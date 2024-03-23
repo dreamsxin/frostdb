@@ -41,7 +41,7 @@ linters-settings:
   errcheck:
     exclude: ./.errcheck_excludes.txt
   goimports:
-    local-prefixes: github.com/polarsignals/frostdb
+    local-prefixes: github.com/dreamsxin/frostdb
   gofumpt:
     extra-rules: true
   misspell:

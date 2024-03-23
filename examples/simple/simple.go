@@ -7,9 +7,9 @@ import (
 	"github.com/apache/arrow/go/v15/arrow"
 	"github.com/apache/arrow/go/v15/arrow/memory"
 
-	"github.com/polarsignals/frostdb"
-	"github.com/polarsignals/frostdb/query"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb"
+	"github.com/dreamsxin/frostdb/query"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 // This example demonstrates how to create a simple FrostDB with a dynamic labels column that stores float values.

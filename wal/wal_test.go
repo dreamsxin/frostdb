@@ -11,7 +11,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	walpb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
+	walpb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
 )
 
 func TestWAL(t *testing.T) {

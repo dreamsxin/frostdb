@@ -8,8 +8,8 @@ import (
 	"github.com/apache/arrow/go/v15/arrow"
 	"github.com/apache/arrow/go/v15/arrow/memory"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/pqarrow/convert"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/pqarrow/convert"
 )
 
 // LogicalPlan is a logical representation of a query. Each LogicalPlan is a

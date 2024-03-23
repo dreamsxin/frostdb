@@ -8,7 +8,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/dynparquet"
 )
 
 // This file contains the implementation of the Part interface backed by a Parquet Buffer.

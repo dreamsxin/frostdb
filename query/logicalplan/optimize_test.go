@@ -3,7 +3,7 @@ package logicalplan
 import (
 	"testing"
 
-	"github.com/polarsignals/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/dynparquet"
 
 	"github.com/apache/arrow/go/v15/arrow/scalar"
 	"github.com/stretchr/testify/require"

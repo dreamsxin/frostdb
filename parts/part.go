@@ -6,7 +6,7 @@ import (
 
 	"github.com/apache/arrow/go/v15/arrow"
 
-	"github.com/polarsignals/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/dynparquet"
 )
 
 type Part interface {

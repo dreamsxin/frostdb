@@ -10,9 +10,9 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/array"
 	"github.com/apache/arrow/go/v15/arrow/memory"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/pqarrow/arrowutils"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/pqarrow/arrowutils"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 // OrderedSynchronizer implements synchronizing ordered input from multiple

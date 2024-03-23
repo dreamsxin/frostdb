@@ -16,7 +16,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/compute"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
 )
 
 type Direction uint

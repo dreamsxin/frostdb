@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/query/logicalplan"
-	"github.com/polarsignals/frostdb/recovery"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/recovery"
 )
 
 // TODO: Make this smarter.

@@ -8,8 +8,8 @@ import (
 	"github.com/parquet-go/parquet-go"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	schemapb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	schemapb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
 )
 
 func main() {

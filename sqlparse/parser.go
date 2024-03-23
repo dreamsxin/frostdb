@@ -5,7 +5,7 @@ import (
 
 	"github.com/pingcap/tidb/parser"
 
-	"github.com/polarsignals/frostdb/query"
+	"github.com/dreamsxin/frostdb/query"
 )
 
 type Parser struct {

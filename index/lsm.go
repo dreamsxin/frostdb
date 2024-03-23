@@ -16,10 +16,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/parts"
-	"github.com/polarsignals/frostdb/query/expr"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/parts"
+	"github.com/dreamsxin/frostdb/query/expr"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type CompactionType int

@@ -16,12 +16,12 @@ import (
 	"github.com/google/uuid"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	schemapb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
-	"github.com/polarsignals/frostdb/pqarrow"
-	"github.com/polarsignals/frostdb/query"
-	"github.com/polarsignals/frostdb/query/logicalplan"
-	"github.com/polarsignals/frostdb/sqlparse"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	schemapb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/schema/v1alpha1"
+	"github.com/dreamsxin/frostdb/pqarrow"
+	"github.com/dreamsxin/frostdb/query"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/sqlparse"
 )
 
 const nullString = "null"
@@ -263,7 +263,7 @@ func (r *Runner) handleInsert(ctx context.Context, c *datadriven.TestData) (stri
 	}
 	buf.Sort()
 
-	// TODO: https://github.com/polarsignals/frostdb/issues/548 Should just build the arrow record directly.
+	// TODO: https://github.com/dreamsxin/frostdb/issues/548 Should just build the arrow record directly.
 	converter := pqarrow.NewParquetConverter(memory.NewGoAllocator(), logicalplan.IterOptions{})
 	defer converter.Close()
 

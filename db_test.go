@@ -23,13 +23,13 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	walpb "github.com/polarsignals/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
-	"github.com/polarsignals/frostdb/index"
-	"github.com/polarsignals/frostdb/query"
-	"github.com/polarsignals/frostdb/query/logicalplan"
-	"github.com/polarsignals/frostdb/query/physicalplan"
-	"github.com/polarsignals/frostdb/recovery"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	walpb "github.com/dreamsxin/frostdb/gen/proto/go/frostdb/wal/v1alpha1"
+	"github.com/dreamsxin/frostdb/index"
+	"github.com/dreamsxin/frostdb/query"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query/physicalplan"
+	"github.com/dreamsxin/frostdb/recovery"
 )
 
 func TestDBWithWALAndBucket(t *testing.T) {
@@ -1283,7 +1283,7 @@ func TestDBRecover(t *testing.T) {
 
 	// Ensure that the WAL is written to after loading from a snapshot. This
 	// tests a regression detailed in:
-	// https://github.com/polarsignals/frostdb/issues/390
+	// https://github.com/dreamsxin/frostdb/issues/390
 	t.Run("Issue390", func(t *testing.T) {
 		dir := setup(t, false)
 		c, err := New(

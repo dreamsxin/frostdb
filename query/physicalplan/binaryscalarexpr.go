@@ -12,7 +12,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/compute"
 	"github.com/apache/arrow/go/v15/arrow/scalar"
 
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type ArrayRef struct {

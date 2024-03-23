@@ -14,8 +14,8 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/dynparquet"
-	"github.com/polarsignals/frostdb/parts"
+	"github.com/dreamsxin/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/parts"
 )
 
 const (

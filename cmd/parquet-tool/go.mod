@@ -1,4 +1,4 @@
-module github.com/polarsignals/frostdb/cmd/parquet-tool
+module github.com/dreamsxin/frostdb/cmd/parquet-tool
 
 go 1.21
 
@@ -9,7 +9,7 @@ require (
 	github.com/go-kit/log v0.2.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/parquet-go/parquet-go v0.20.0
-	github.com/polarsignals/frostdb v0.0.0-20240220123139-b61efff40bad
+	github.com/dreamsxin/frostdb v0.0.0-20240220123139-b61efff40bad
 	github.com/prometheus/client_golang v1.17.0
 	github.com/spf13/cobra v1.7.0
 )

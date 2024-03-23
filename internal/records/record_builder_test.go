@@ -8,8 +8,8 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/polarsignals/frostdb/internal/records"
-	"github.com/polarsignals/frostdb/samples"
+	"github.com/dreamsxin/frostdb/internal/records"
+	"github.com/dreamsxin/frostdb/samples"
 )
 
 func TestBuild(t *testing.T) {

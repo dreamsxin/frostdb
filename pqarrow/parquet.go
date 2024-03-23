@@ -12,7 +12,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/scalar"
 	"github.com/parquet-go/parquet-go"
 
-	"github.com/polarsignals/frostdb/dynparquet"
+	"github.com/dreamsxin/frostdb/dynparquet"
 )
 
 func ArrowScalarToParquetValue(sc scalar.Scalar) (parquet.Value, error) {

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 func TestOrderedSynchronizer(t *testing.T) {

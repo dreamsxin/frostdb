@@ -11,7 +11,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/array"
 	"github.com/apache/arrow/go/v15/arrow/memory"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
 )
 
 // MergeRecords merges the given records. The records must all have the same

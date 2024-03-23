@@ -13,7 +13,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/scalar"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 type PredicateFilter struct {

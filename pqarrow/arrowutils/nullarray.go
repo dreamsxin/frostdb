@@ -4,7 +4,7 @@ import (
 	"github.com/apache/arrow/go/v15/arrow"
 	"github.com/apache/arrow/go/v15/arrow/memory"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
 )
 
 // VirtualNullArray is an arrow.Array that will return that any element is null

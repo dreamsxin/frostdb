@@ -12,8 +12,8 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
-	"github.com/polarsignals/frostdb/query/logicalplan"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/query/logicalplan"
 )
 
 // TestOrderedAggregate unit tests aggregation logic specific to

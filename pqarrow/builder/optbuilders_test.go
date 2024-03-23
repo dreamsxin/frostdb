@@ -11,10 +11,10 @@ import (
 	"github.com/apache/arrow/go/v15/arrow/memory"
 	"github.com/stretchr/testify/require"
 
-	"github.com/polarsignals/frostdb/pqarrow/builder"
+	"github.com/dreamsxin/frostdb/pqarrow/builder"
 )
 
-// https://github.com/polarsignals/frostdb/issues/270
+// https://github.com/dreamsxin/frostdb/issues/270
 func TestIssue270(t *testing.T) {
 	b := builder.NewOptBinaryBuilder(arrow.BinaryTypes.Binary)
 	b.AppendNull()
