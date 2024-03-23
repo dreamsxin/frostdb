@@ -8,7 +8,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/cockroachdb/datadriven v1.0.2
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140
-	github.com/dreamsxin/wal v0.0.0-20240323113037-4a82fa884874
+	github.com/dreamsxin/wal v0.0.1
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-kit/log v0.2.1
 	github.com/google/uuid v1.6.0
